@@ -1,0 +1,33 @@
+{
+  "name": "thisify",
+  "version": "1.0.0",
+  "description": "Convert the first parameter of a function to use \"this\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babelhook",
+    "build": "babel --stage 0 src/index.js > index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovon/thisify.git"
+  },
+  "keywords": [
+    "this",
+    "functions",
+    "functional-programming",
+    "bind",
+    "binding",
+    "es7"
+  ],
+  "author": "Salehen Shovon Rahman <sal@linux.com> (http://shovon.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shovon/thisify/issues"
+  },
+  "homepage": "https://github.com/shovon/thisify#readme",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  }
+}
